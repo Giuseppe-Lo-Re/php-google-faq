@@ -108,8 +108,46 @@ $questionsAnswers = [
 <body>
     <!-- Header -->
     <header>
-        <div class="img-wrapper">
-            <img src="./img/logo.jpeg" alt="logo">
+
+        <!-- Header Top -->
+        <div class="header-top">
+
+            <!-- Logo -->
+            <div class="img-wrapper">
+                <img src="./img/logo.jpeg" alt="logo">
+            </div>
+    
+            <!-- Privacy & Termini -->
+            <div class="privacy">
+                Privacy & Termini
+            </div>
+        </div>
+
+        <!-- Header Bottom -->
+        <div class="header-bottom">
+
+            <!-- Menu -->
+            <ul>
+                <li>
+                    Introduzione
+                </li>
+
+                <li>
+                    Norme sulla privacy
+                </li>
+
+                <li>
+                    Termini di servizio
+                </li>
+
+                <li>
+                    Tecnologie
+                </li>
+
+                <li class="active">
+                    Domande frequenti
+                </li>
+            </ul>
         </div>
     </header>
 
