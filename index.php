@@ -103,6 +103,8 @@ $questionsAnswers = [
 
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Title -->
     <title>Google FAQ</title>
 </head>
 <body>
@@ -171,11 +173,8 @@ $questionsAnswers = [
                 <!-- Stampo  nel DOm le risposte -->
                 <?php echo $faq['answer']; ?>
             </p>
-    
             <?php } ?>    
         </div>
     </main>
-
-    
 </body>
 </html>
